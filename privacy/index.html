@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -77,7 +78,7 @@ to provide our services.
 
 <span>
 
-Last Updated: October 16, 2026
+Last Updated: October 21, 2026
 
 </span>
 
@@ -194,6 +195,78 @@ Discord Username
 
 
 </div>
+
+
+<!-- Newsletter subscription information -->
+
+<div class="tos-data-box">
+
+
+<h3>
+
+Newsletter Subscription Information
+
+</h3>
+
+
+<ul>
+
+<li>
+Email address
+</li>
+
+<li>
+Subscription and email confirmation status
+</li>
+
+<li>
+Date and time of subscription
+</li>
+
+<li>
+Unsubscription status and date, where applicable
+</li>
+
+<li>
+Hashed confirmation and unsubscribe tokens used to validate subscription actions
+</li>
+
+</ul>
+
+
+</div>
+
+
+<p>
+
+When you subscribe to the <strong>Joinly</strong> newsletter, we collect
+your email address to manage your subscription and send you a confirmation
+email.
+
+</p>
+
+
+<br>
+
+
+<p>
+
+After confirming your email address, you may receive newsletters and
+updates about <strong>Joinly</strong>. We do not send regular newsletters
+to unconfirmed subscriptions.
+
+</p>
+
+
+<br>
+
+
+<p>
+
+You can unsubscribe at any time using the unsubscribe link included
+in our newsletter emails.
+
+</p>
 
 
 <p>
@@ -416,6 +489,23 @@ Prevent abuse or misuse of Joinly.
 </li>
 
 
+<!-- Newsletter-related purposes -->
+
+<li>
+Manage newsletter subscriptions and email confirmation.
+</li>
+
+
+<li>
+Send newsletters and updates to confirmed subscribers.
+</li>
+
+
+<li>
+Process unsubscribe requests and prevent further newsletters from being sent to unsubscribed addresses.
+</li>
+
+
 </ul>
 
 
@@ -485,7 +575,48 @@ Fulfill operational requirements.
 </li>
 
 
+<li>
+Maintain newsletter subscription records and preferences.
+</li>
+
+
 </ul>
+
+
+<!-- Newsletter data retention -->
+
+<p>
+
+Newsletter subscription information is stored in a database hosted by
+Supabase. We retain this information for as long as reasonably necessary
+to operate the newsletter, maintain subscription records, and prevent
+further emails from being sent after an unsubscribe request.
+
+</p>
+
+
+<br>
+
+
+<p>
+
+Unsubscribed email addresses may remain in our database with their
+unsubscription status recorded. This helps prevent future newsletters
+from being sent to those addresses.
+
+</p>
+
+
+<br>
+
+
+<p>
+
+Confirmation and unsubscribe tokens are stored as cryptographic hashes
+rather than as the original token values. These hashes are used to
+validate subscription confirmation and unsubscribe requests.
+
+</p>
 
 
 </div>
@@ -540,6 +671,31 @@ Required to provide a requested service.
 
 
 </ul>
+
+
+<!-- Newsletter service providers -->
+
+<p>
+
+To operate the newsletter, limited information is shared with service
+providers that process data on our behalf. These providers include
+Supabase for database storage, Resend for email delivery, and Vercel
+for website hosting and server-side processing.
+
+</p>
+
+
+<br>
+
+
+<p>
+
+When a newsletter is sent, Resend processes recipient email addresses
+and the email content required to deliver the message. These providers
+may process information in accordance with their own privacy policies
+and applicable terms.
+
+</p>
 
 
 </div>
@@ -608,6 +764,35 @@ Premium Service Providers (Patreon)
 </li>
 
 
+<!-- Newsletter providers -->
+
+<li>
+<a href="https://supabase.com/privacy"
+target="_blank"
+rel="noopener noreferrer">
+Database Providers (Supabase)
+</a>
+</li>
+
+
+<li>
+<a href="https://resend.com/legal/privacy-policy"
+target="_blank"
+rel="noopener noreferrer">
+Email Delivery Providers (Resend)
+</a>
+</li>
+
+
+<li>
+<a href="https://vercel.com/legal/privacy-policy"
+target="_blank"
+rel="noopener noreferrer">
+Website Hosting and Serverless Functions (Vercel)
+</a>
+</li>
+
+
 </ul>
 
 
@@ -648,9 +833,36 @@ You may request deletion of data stored by <strong>Joinly</strong>.
 </p>
 
 
+<!-- Newsletter deletion requests -->
+
 <p>
 
-To request data deletion, follow the process below:
+Newsletter subscribers may also request deletion of their subscription
+information by contacting
+<a href="mailto:legal@joinly-bot.xyz">legal@joinly-bot.xyz</a>.
+
+</p>
+
+
+<br>
+
+
+<p>
+
+Unsubscribing from the newsletter stops future newsletter emails but
+does not automatically delete the associated subscription record.
+Unsubscribed records may be retained to help ensure that further
+newsletters are not sent to those addresses.
+
+</p>
+
+
+<br>
+
+
+<p>
+
+To request deletion of other data, follow the process below:
 
 </p>
 
@@ -701,7 +913,8 @@ We may request verification to ensure the deletion request is legitimate.
 <p>
 
 Once approved, applicable stored data will be deleted within a reasonable
-timeframe.
+timeframe, subject to applicable legal obligations and legitimate
+operational or security requirements.
 
 </p>
 
@@ -912,6 +1125,15 @@ please contact our <strong>Compliance Team</strong>:
 
 <p>
 
+For newsletter-related questions, subscription data requests, or help
+with unsubscribing, you can also contact us at
+<a href="mailto:legal@joinly-bot.xyz">legal@joinly-bot.xyz</a>.
+
+</p>
+
+
+<p>
+
 By using <strong>Joinly</strong>, you acknowledge that you:
 
 </p>
@@ -950,7 +1172,9 @@ Accept the practices described in this Privacy Policy.
 <script src="../../js/main.js"></script>
 
 
-  <script src="/js/navbar.js"></script>
+<script src="/js/navbar.js"></script>
+
+
 </body>
 
 </html>
